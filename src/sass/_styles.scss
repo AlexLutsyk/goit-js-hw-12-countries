@@ -1,0 +1,53 @@
+body {
+  font-family: 'Zen Loop', cursive;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/body-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+img {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(114, 21, 21);
+}
+
+.header {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.input-search {
+  border-radius: 3px;
+  height: 30px;
+  width: 300px;
+}
+
+.country-render {
+  display: flex;
+  margin-top: 40px;
+}
+
+.content-render {
+  margin-right: 50px;
+}
+
+.flag-img img {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 400px;
+  height: inherit;
+}
